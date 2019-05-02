@@ -27,13 +27,13 @@ class RecursiveFunctionsTest {
 	void fibonacciTest() {
 		
 		int N1 = 25;
-		assertEquals(46368, RecursiveFunctions.fibonacci(N1), "Not is correct");
+		assertEquals(75025, RecursiveFunctions.fibonacci(N1), "Not is correct");
 		
 		int N2 = 20;
-		assertEquals(4181, RecursiveFunctions.fibonacci(N2), "Not is correct");
+		assertEquals(6765, RecursiveFunctions.fibonacci(N2), "Not is correct");
 
 		int N3 = 10;
-		assertEquals(34, RecursiveFunctions.fibonacci(N3), "Not is correct");
+		assertEquals(55, RecursiveFunctions.fibonacci(N3), "Not is correct");
 
 	}
 	
