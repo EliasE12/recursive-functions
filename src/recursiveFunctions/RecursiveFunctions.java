@@ -52,9 +52,11 @@ public class RecursiveFunctions {
 	
 	public static String mezclar2(String c1, String c2, int length) {
 	   String men = c1.charAt(length) + "" + c2.charAt(length);
-		if(length == c1.length()-1) {}
-	   return men;
-	}
+		if(length == c1.length()-1) {
+			return men;
+		}else {
+			return men + mezclar2(c1, c2, length);
+		}	}
 
 	
 	
